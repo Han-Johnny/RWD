@@ -2,76 +2,141 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <!--網頁編碼為萬國編碼-->
-    <meta name="keywords" content="RWD, HTML, HTML pratice, HTML learn, learn">
-    <!--搜尋關鍵字-->
-    <meta name="description" content="This is my RWD class at lccnet, I want to learn web project bulid.">
-    <!--對網頁的描述, 方便製作之後的SEO(Search Engine Optimization, 搜尋引擎最佳化)-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Hanlin, cliff0521000@gmail.com">
-    <!--作者資訊-->
+	<meta charset="utf-8">
+	<!--網頁編碼為萬國編碼-->
+	<meta name="robots" content="index, follow">
+	<!--允許檢索與收錄-->
 
-    <meta property="og:url" content="http://www.fashionvillage.com/index.html" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="Fashion Village" />
-    <meta property="og:description" content="This is my RWD class at lccnet, I want to learn web project bulid." />
-    <meta property="og:image" content="http://www.fashionvillage.com/images/logo.png" />
-    <title>Fashion Village - News_Child</title>
-    <!--
-    <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Rubik+Mono+One&display=swap" rel="stylesheet">
--->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
-    <!--網路字體-->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <!--Google圖標-->
+	<meta name="keywords" content="RWD, HTML, HTML pratice, HTML learn, learn">
+	<!--搜尋關鍵字-->
+	<meta name="description" content="This is my RWD class at lccnet, I want to learn web project bulid.">
+	<!--對網頁的描述, 方便製作之後的SEO(Search Engine Optimization, 搜尋引擎最佳化)-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Hanlin, cliff0521000@gmail.com">
+	<!--作者資訊-->
 
-    <link rel="shortcut icon" href="./images/icon-main.ico">
+	<meta property="og:url" content="http://www.fashionvillage.com/index.html" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Fashion Village" />
+	<meta property="og:description" content="This is my RWD class at lccnet, I want to learn web project bulid." />
+	<meta property="og:image" content="http://www.fashionvillage.com/images/logo.png" />
+	<title>Fashion Village</title>
+
+	<!-- <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet"> -->
+	<!-- <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Rubik+Mono+One&display=swap" rel="stylesheet"> -->
+
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+
 	<!--頁籤小圖示-->
-	<link rel="apple-touch-icon" href="images/logo-main.png">
+	<link rel="shortcut icon" href="./images/icon-main.ico">
 	<!--手機桌面圖示-->
+	<link rel="apple-touch-icon" href="images/logo-main.png">
 
-    <link rel="stylesheet" type="text/css" href="css/reset.css">
-    <!--重設CSS-->
-    <link rel="stylesheet" type="text/css" href="css/basic.css">
-    <!--變數CSS-->
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <!--版面CSS-->
+	<!-- Google Icon -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+	<!--重設CSS-->
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<!--變數CSS-->
+	<link rel="stylesheet" type="text/css" href="css/basic.css">
+	<!--版面CSS-->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<!-- sns-icon -->
+	<link rel="stylesheet" href="./css/icon_style.css">
+
+	<!-- 媒體查詢CSS -->
+	<link rel="stylesheet" type="text/css" href="css/style_m.css" media="(min-width:980px) and (max-width:1239px)">
+	<link rel="stylesheet" type="text/css" href="css/style_s.css" media="(max-width:979px)">
+
+	<!--橫幅輪播CSS及JS-->
+	<link rel="stylesheet" type="text/css" href="css/slide.css">
+	<script src="./js/jquery.min-1.10.2.js"></script>
+	<script src="./js/slide.min.js"></script>
+
 </head>
 
 <body>
-    <div id="header" class="narrow_layout">
-        <div id="logo">
-            <h1><span>Fashion Village</span><a href="index.html"></a></h1>
-        </div>
-        <div id="nav">
-            <ul>
-                <li><a href="about.html">About</a></li>
-                <li><a href="stores.html">Stores</a></li>
-                <li><a href="products.html">Products</a></li>
-                <li><a href="news.html" class="highlight_txt">News</a>
-                    <ul>
-                        <li><a href="news_lady.html">Lady</a></li>
-                        <li><a href="news_girl.html">Girl</a></li>
-                        <li><a href="news_child.html">Child</a></li>
-                    </ul>
-                </li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div>
-    </div>
+	<div id="header" class="narrow_layout">
+		<div id="logo">
+			<h1><span>Fashion Village</span><a href="index.html"></a></h1>
+		</div>
+		<div id="nav">
+			<!-- TopNav -->
+			<nav id="top-nav">
+				<ul>
+					<li>
+						<a href="#0">
+							<span class="material-icons">app_shortcut</span>
+							<span class="topnav-text">Go To App</span>
+						</a>
+					</li>
+					<li>
+						<a href="#0">
+							<span class="material-icons">storefront</span>
+							<span class="topnav-text">Online Shop</span>
+						</a>
+					</li>
+				</ul>
+			</nav>
+			<!-- MainNav -->
+			<nav id="main-nav">
+				<span></span>
+				<input type="checkbox" class="toggler">
+				<div class="hamburger">
+					<div></div>
+				</div>
+				<div class="menu">
+					<div>
+						<div>
+							<ul>
+								<li><a href="about.html">About</a></li>
+								<li><a href="stores.html">Stores</a></li>
+								<li><a href="products.html">Products</a></li>
+								<li><a href="news.html">News</a>
+									<ul>
+										<li><a href="news_lady.html">Lady</a></li>
+										<li><a href="news_girl.html">Girl</a></li>
+										<li><a href="news_child.html">Child</a></li>
+									</ul>
+								</li>
+								<li><a href="contact.html">Contact</a></li>
+								<p id="nav-sns">
+									<a href="https://www.facebook.com/fashionvillage/" target="_blank">
+										<span class="icon-icon-fb"></span>
+									</a>
+									<a href="https://www.instagram.com/fashionvillage/" target="_blank">
+										<span class="icon-icon-ig"></span>
+									</a>
+									<a href="https://www.linkedin.com/fashionvillage/" target="_blank">
+										<span class="icon-icon-linkedin"></span>
+									</a>
+									<a href="https://web.skype.com/" target="_blank">
+										<span class="icon-icon-skype"></span>
+									</a>
+									<a href="https://www.twitter.com/fashionvillage/" target="_blank">
+										<span class="icon-icon-twitter"></span>
+									</a>
+								</p>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</div>
 
-    <!--橫幅區塊-->
-    <div class="hero-image"
-        style="background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./images/banner8.jpg);">
-        <div class="hero-text">
-            <h1 class="font-size-50 line-height_15 font-weight_bolder text_uppercase">Child</h1>
-            <p class="margin_top-50"><a href="news.html" class="text_uppercase font-weight_bolder">News</a><i class="material-icons">keyboard_arrow_right</i>Child</p>
-        </div>
-    </div>
+	<!--橫幅區塊-->
+	<div class="hero-image"
+		style="background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./images/banner8.jpg);">
+		<div class="hero-text">
+			<h1 class="font-size-50 line-height_15 font-weight_bolder text_uppercase">Child</h1>
+			<p class="margin_top-50"><a href="news.html" class="text_uppercase font-weight_bolder">News</a><i
+					class="material-icons">keyboard_arrow_right</i>Child</p>
+		</div>
+	</div>
 
-    <!--內容區塊-->
+	<!--內容區塊-->
 	<div id="outbox">
 		<div class="container">
 			<img src="./images/child-1.jpg" alt="" class="content_box">
@@ -194,23 +259,23 @@
 			</div>
 		</div>
 	</div>
-    <!--頁尾區塊-->
-    <div id="footer" class="narrow_layout">
-        <div id="copyright">
-            <img src="images/logo-small.png" alt="FashionVillage">
-            <small>Copyright &copy;2020 Fashion Village</small>
-        </div>
-        <div id="sns">
-            <a href="https://www.facebook.com/fashionvillage/" target="_blank"><img src="images/icon-fb.svg" alt=""></a>
-            <a href="https://www.instagram.com/fashionvillage/" target="_blank"><img src="images/icon-ig.svg"
-                    alt=""></a>
-            <a href="https://www.linkedin.com/fashionvillage/" target="_blank"><img src="images/icon-linkedin.svg"
-                    alt=""></a>
-            <a href="https://web.skype.com/" target="_blank"><img src="images/icon-skype.svg" alt=""></a>
-            <a href="https://www.twitter.com/fashionvillage/" target="_blank"><img src="images/icon-twitter.svg"
-                    alt=""></a>
-        </div>
-    </div>
+	<!--頁尾區塊-->
+	<div id="footer" class="narrow_layout">
+		<div id="copyright">
+			<img src="images/logo-small.png" alt="FashionVillage">
+			<small>Copyright &copy;2020 Fashion Village</small>
+		</div>
+		<div id="sns">
+			<a href="https://www.facebook.com/fashionvillage/" target="_blank"><img src="images/icon-fb.svg" alt=""></a>
+			<a href="https://www.instagram.com/fashionvillage/" target="_blank"><img src="images/icon-ig.svg"
+					alt=""></a>
+			<a href="https://www.linkedin.com/fashionvillage/" target="_blank"><img src="images/icon-linkedin.svg"
+					alt=""></a>
+			<a href="https://web.skype.com/" target="_blank"><img src="images/icon-skype.svg" alt=""></a>
+			<a href="https://www.twitter.com/fashionvillage/" target="_blank"><img src="images/icon-twitter.svg"
+					alt=""></a>
+		</div>
+	</div>
 
 </body>
 
