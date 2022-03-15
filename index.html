@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<!--網頁編碼為萬國編碼-->
+	<meta name="robots" content="index, follow">
+	<!--允許檢索與收錄-->
+
+	<meta name="keywords" content="RWD, HTML, HTML pratice, HTML learn, learn">
+	<!--搜尋關鍵字-->
+	<meta name="description" content="This is my RWD class at lccnet, I want to learn web project bulid.">
+	<!--對網頁的描述, 方便製作之後的SEO(Search Engine Optimization, 搜尋引擎最佳化)-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Hanlin, cliff0521000@gmail.com">
+	<!--作者資訊-->
+
+	<meta property="og:url" content="http://www.fashionvillage.com/index.html" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Fashion Village" />
+	<meta property="og:description" content="This is my RWD class at lccnet, I want to learn web project bulid." />
+	<meta property="og:image" content="http://www.fashionvillage.com/images/logo.png" />
+	<title>Fashion Village</title>
+
+	<!-- <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet"> -->
+	<!-- <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Rubik+Mono+One&display=swap" rel="stylesheet"> -->
+
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap" rel="stylesheet">
+
+	<!--頁籤小圖示-->
+	<link rel="shortcut icon" href="./images/icon-main.ico">
+	<!--手機桌面圖示-->
+	<link rel="apple-touch-icon" href="images/logo-main.png">
+
+	<!-- Google Icon -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+	<!--重設CSS-->
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<!--變數CSS-->
+	<link rel="stylesheet" type="text/css" href="css/basic.css">
+	<!--版面CSS-->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<!-- sns-icon -->
+	<link rel="stylesheet" href="./css/icon_style.css">
+
+	<!-- 媒體查詢CSS -->
+	<link rel="stylesheet" type="text/css" href="css/style_m.css" media="(min-width:980px) and (max-width:1239px)">
+	<link rel="stylesheet" type="text/css" href="css/style_s.css" media="(max-width:979px)">
+
+	<!--橫幅輪播CSS及JS-->
+	<link rel="stylesheet" type="text/css" href="css/slide.css">
+	<script src="./js/jquery.min-1.10.2.js"></script>
+	<script src="./js/slide.min.js"></script>
+
+</head>
+
+<body>
+	<!--頁首區塊-->
+	<div id="header">
+		<div id="logo">
+			<h1><span>Fashion Village</span><a href="index.html"></a></h1>
+		</div>
+		<div id="nav">
+			<!-- TopNav -->
+			<nav id="top-nav">
+				<ul>
+					<li>
+						<a href="#0">
+							<span class="material-icons">app_shortcut</span>
+							<span class="topnav-text">Go To App</span>
+						</a>
+					</li>
+					<li>
+						<a href="#0">
+							<span class="material-icons">storefront</span>
+							<span class="topnav-text">Online Shop</span>
+						</a>
+					</li>
+				</ul>
+			</nav>
+			<!-- MainNav -->
+			<nav id="main-nav">
+				<span class="tip">Click to Open Navigation</span>
+				<input type="checkbox" class="toggler">
+				<div class="hamburger">
+					<div></div>
+				</div>
+				<div class="menu">
+					<div>
+						<div>
+							<ul>
+								<li><a href="about.html">About</a></li>
+								<li><a href="stores.html">Stores</a></li>
+								<li><a href="products.html">Products</a></li>
+								<li class="item-has-children"><a href="news.html">News</a>
+									<ul class="sub-menu">
+										<li><a href="news_lady.html">Lady</a></li>
+										<li><a href="news_girl.html">Girl</a></li>
+										<li><a href="news_child.html">Child</a></li>
+									</ul>
+								</li>
+								<li><a href="contact.html">Contact</a></li>
+								<p id="nav-sns">
+									<a href="https://www.facebook.com/fashionvillage/" target="_blank">
+										<span class="icon-icon-fb"></span>
+									</a>
+									<a href="https://www.instagram.com/fashionvillage/" target="_blank">
+										<span class="icon-icon-ig"></span>
+									</a>
+									<a href="https://www.linkedin.com/fashionvillage/" target="_blank">
+										<span class="icon-icon-linkedin"></span>
+									</a>
+									<a href="https://web.skype.com/" target="_blank">
+										<span class="icon-icon-skype"></span>
+									</a>
+									<a href="https://www.twitter.com/fashionvillage/" target="_blank">
+										<span class="icon-icon-twitter"></span>
+									</a>
+								</p>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</nav>
+
+
+		</div>
+	</div>
+
+	<!--橫幅區塊-->
+	<!-- <div class="banner"><img src="images/banner1.jpg" alt=""></div> -->
+	<div id="banner" class="banner">
+		<div id="slide2d" class="slide-carousel slide-2d">
+			<!--橫幅圖*4-->
+			<ul class="item-list">
+				<li class="item0">
+					<div class="item-content">
+						<a href="javascript:void(0);">
+							<!-- <img src="./images/banner1.jpg" alt=""> -->
+							<picture>
+								<source media="(min-width: 768px) and (max-width: 959px)" srcset="./images/banner1.jpg">
+								<source media="(max-width: 767px)" srcset="./images/banner1-mobile.jpg">
+								<img src="./images/banner1.jpg" alt="">
+							</picture>
+						</a>
+					</div>
+				</li>
+				<li class="item1">
+					<div class="item-content">
+						<a href="javascript:void(0);">
+							<!-- <img src="./images/banner2.jpg" alt=""> -->
+							<picture>
+								<source media="(min-width: 768px) and (max-width: 959px)" srcset="./images/banner2.jpg">
+								<source media="(max-width: 767px)" srcset="./images/banner2-mobile.jpg">
+								<img src="./images/banner2.jpg" alt="">
+							</picture>
+						</a>
+					</div>
+				</li>
+				<li class="item2">
+					<div class="item-content">
+						<a href="javascript:void(0);">
+							<!-- <img src="./images/banner3.jpg" alt=""> -->
+							<picture>
+								<source media="(min-width: 768px) and (max-width: 959px)" srcset="./images/banner3.jpg">
+								<source media="(max-width: 767px)" srcset="./images/banner3-mobile.jpg">
+								<img src="./images/banner3.jpg" alt="">
+							</picture>
+						</a>
+					</div>
+				</li>
+				<li class="item3">
+					<div class="item-content">
+						<a href="javascript:void(0);">
+							<!-- <img src="./images/banner4.jpg" alt=""> -->
+							<picture>
+								<source media="(min-width: 768px) and (max-width: 959px)" srcset="./images/banner4.jpg">
+								<source media="(max-width: 767px)" srcset="./images/banner4-mobile.jpg">
+								<img src="./images/banner4.jpg" alt="">
+							</picture>
+						</a>
+					</div>
+				</li>
+			</ul>
+			<!--指示小圖示-->
+			<div class="indicator-list">
+				<a href="javascript:void(0);" data-slide-index="0" class="selected"></a>
+				<a href="javascript:void(0);" data-slide-index="1"></a>
+				<a href="javascript:void(0);" data-slide-index="2"></a>
+				<a href="javascript:void(0);" data-slide-index="3"></a>
+			</div>
+			<!--左右控制器-->
+			<div class="controls">
+				<a class="item-prev glyphicon glyphicon-menu-left" href="javascript:void(0);"></a>
+				<a class="item-next glyphicon glyphicon-menu-right" href="javascript:void(0);"></a>
+			</div>
+			<!--下方遮色說明-->
+			<div class="desc"></div>
+		</div>
+	</div>
+
+	<!--內容區塊-->
+	<div id="main-content">
+		<div class="slogan">
+			<h2>Who We Are?</h2>
+			<p>‘Fashion Village’ Is One Of The Leading Garments/Apparel Sourcing Buying House & Readymade Garments
+				Exporter.</p>
+			<p>We Serve As Local And International Buyer's Representative And Strive To Deliver Satisfying Buying
+				Experience Of Fabric And Readymade Garments To Fashion Buyers & Importers All Over The World.</p>
+			<p>We Have The Ability To Provide Best Quality Apparel To The International Buyers Within Their Expected
+				Price & Time.</p>
+			<p>We Believe, We Can Deliver You Better Results Than Our Competitors.</p>
+		</div>
+		<div class="post">
+			<div class="post_title">Girls Fashionable Dress</div>
+			<div class="post_img"><a href="products.html"><img src="images/postimg1.jpg" alt="Fashion Village"></a>
+			</div>
+			<div class="post_text"> Explore our outerwear collection for year-round layering with jackets, windbreakers,
+				coats, and cold-weather accessories. We also offer special occasion and communion dresses.</div>
+			<div class="more"><a href="products.html">View more &gt;&gt;</a></div>
+		</div>
+		<div class="post">
+			<div class="post_title">Girls Fashionable Dress</div>
+			<div class="post_img"><a href="products.html"><img src="images/postimg2.jpg" alt="Fashion Village"></a>
+			</div>
+			<div class="post_text"> We're always ready with casual wear for school or playtime for your little girl with
+				items including jeans, T-shirts, and sets from True Religion, Levi's, and VIP Jeans.</div>
+			<div class="more"><a href="products.html">View more &gt;&gt;</a></div>
+		</div>
+	</div>
+
+	<div id="picshow">
+		<a href="products.html"><img src="images/picshow1.jpg" alt="Fashion Vullage"></a>
+		<a href="products.html"><img src="images/picshow2.jpg" alt="Fashion Vullage"></a>
+		<a href="products.html"><img src="images/picshow3.jpg" alt="Fashion Vullage"></a>
+		<a href="products.html"><img src="images/picshow4.jpg" alt="Fashion Vullage"></a>
+	</div>
+
+	<div id="movie">
+		<iframe width="100%" height="465px" src="https://www.youtube.com/embed/eKoy8SSB63Y" title="Youtube video player"
+			frameborder="0"
+			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+			allowfullscreen></iframe>
+	</div>
+
+	<div id="footer" class="narrow_layout">
+
+		<div id="copyright">
+			<img src="images/logo-small.png" alt="FashionVillage">
+			<small>Copyright &copy;2020 Fashion Village</small>
+		</div>
+		<div id="sns">
+			<a href="https://www.facebook.com/fashionvillage/" target="_blank">
+				<span class="icon-icon-fb"></span>
+				<!-- <img src="images/icon-fb.svg" alt=""> -->
+			</a>
+			<a href="https://www.instagram.com/fashionvillage/" target="_blank">
+				<span class="icon-icon-ig"></span>
+				<!-- <img src="images/icon-ig.svg" alt=""> -->
+			</a>
+			<a href="https://www.linkedin.com/fashionvillage/" target="_blank">
+				<span class="icon-icon-linkedin"></span>
+				<!-- <img src="images/icon-linkedin.svg" alt=""> -->
+			</a>
+			<a href="https://web.skype.com/" target="_blank">
+				<span class="icon-icon-skype"></span>
+				<!-- <img src="images/icon-skype.svg" alt=""> -->
+			</a>
+			<a href="https://www.twitter.com/fashionvillage/" target="_blank">
+				<span class="icon-icon-twitter"></span>
+				<!-- <img src="images/icon-twitter.svg" alt=""> -->
+			</a>
+		</div>
+		<!-- Go Top -->
+		<div id="gotop" style="display: none;">
+			<span class="material-icons">arrow_circle_up</span>
+			<span class="gotip">Go Back To Top</span>
+		</div>
+
+	</div>
+</body>
+
+</html>
