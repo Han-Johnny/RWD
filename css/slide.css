@@ -52,7 +52,7 @@
 .indicator-list {
   position: absolute;
   bottom: 20px;
-  left: 50%;
+  left: calc((100%-98px)/2);
   z-index: 99;
 }
 
