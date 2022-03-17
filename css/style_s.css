@@ -670,7 +670,7 @@
   left: 0;
   float: none;
 }
-@media (max-width:767px) {
+@media (max-width:768px) {
   .features_box{
     display: block;
     height: 900px;
