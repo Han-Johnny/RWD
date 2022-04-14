@@ -7,6 +7,7 @@
   position: relative;
   overflow: hidden;
 }
+
 .slide-carousel .item-list {
   height: 100%;
   width: 100%;
@@ -15,6 +16,7 @@
   justify-items: flex-end;
   align-items: contain;
 }
+
 .item-list li {
   height: 100%;
   transition: all 0.5s ease-out;
@@ -24,20 +26,24 @@
 }
 
 .item-list .item0 {
+  transform: translateX(-100%);
+}
+
+.item-list .item1 {
   transform: translateX(0%);
 }
-.item-list .item1 {
+
+.item-list .item2 {
   transform: translateX(100%);
 }
-.item-list .item2 {
-  transform: translateX(200%);
-}
+
 .item-list .item3 {
-  transform: translateX(300%);
+  transform: translateX(200%);
 }
 
 /* slide設定 */
-.item-list, .item-content {
+.item-list,
+.item-content {
   height: 100%;
   width: 100%;
   overflow: hidden;
@@ -80,6 +86,7 @@ a.selected {
   opacity: 1;
   transition: opacity 0.5s ease;
 }
+
 .slide-carousel .controls a {
   cursor: pointer;
   text-decoration: none;
@@ -90,33 +97,40 @@ a.selected {
   font-size: 35px;
   padding-top: 25px;
 }
+
 .slide-carousel .controls a:hover {
   background-color: rgba(0, 0, 0, 0.5);
 }
+
 .slide-carousel .controls .item-prev {
   color: #f18ab8;
   top: 50%;
   left: 0;
   margin-top: -42px;
 }
+
 .slide-carousel .controls .item-next {
   color: #f18ab8;
   top: 50%;
   right: 0;
   margin-top: -42px;
 }
+
 @font-face {
   font-family: "Glyphicons Halflings";
   src: url("../fonts/glyphicons-halflings-regular.woff");
 }
+
 .glyphicon {
   display: inline-block;
   font-family: "Glyphicons Halflings";
   line-height: 1;
 }
+
 .glyphicon-menu-left:before {
   content: "\e257";
 }
+
 .glyphicon-menu-right:before {
   content: "\e258";
 }
