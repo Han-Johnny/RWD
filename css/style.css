@@ -9,6 +9,7 @@
   margin: 0 auto;
   padding: 15px 0;
 }
+
 #logo {
   float: left;
   background-image: url("../images/logo.png");
@@ -16,11 +17,13 @@
   background-position: 65% 50%;
   background-size: contain;
 }
+
 #logo a {
   display: block;
   width: 330px;
   height: 190px;
 }
+
 #logo span {
   visibility: hidden;
 }
@@ -32,6 +35,7 @@
   margin-top: 50px;
   font-size: var(--h4);
 }
+
 /* #nav a {
   display: block;
   color: var(--grey);
@@ -71,15 +75,19 @@
   font-size: var(--des);
   text-transform: uppercase;
 }
+
 #top-nav a {
   display: block;
   margin-left: 30px;
   float: right;
 }
+
 #top-nav li a:hover {
   text-decoration: none;
 }
-#top-nav .material-icons, #main-nav .material-icons {
+
+#top-nav .material-icons,
+#main-nav .material-icons {
   transform: translate(-20%, 30%) !important;
   margin-left: 5px !important;
 }
@@ -88,20 +96,23 @@
   float: right;
   font-size: var(--h4);
 }
-#main-nav .tip{
-	display: block;
-	visibility: hidden;
-	width:240px;
-	height: 50px;
-	line-height: 50px;
-	text-align: center;
-	color:var(--white, #ffffffff);
-	background-color:rgba(241,138,184,0.50);
-	border-radius: 8px;
-	position: absolute;
-	right:40px;
+
+#main-nav .tip {
+  display: block;
+  visibility: hidden;
+  width: 240px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: var(--white, #ffffffff);
+  background-color: rgba(241, 138, 184, 0.50);
+  border-radius: 8px;
+  position: absolute;
+  right: 40px;
 }
-#main-nav a, .highlight_txt {
+
+#main-nav a,
+.highlight_txt {
   display: block;
   color: var(--grey, #545454ff);
   width: 120px;
@@ -112,7 +123,9 @@
   background-color: var(--white, #ffffffff);
   overflow: hidden;
 }
-#main-nav a:hover, #main-nav a:active {
+
+#main-nav a:hover,
+#main-nav a:active {
   /* 滑鼠滑入按鈕變色*/
   color: var(--pink, #f18ab8ff);
   text-decoration: none;
@@ -124,7 +137,9 @@
   float: left;
   position: relative;
 }
-#main-nav li li { /*針對第二層選單*/
+
+#main-nav li li {
+  /*針對第二層選單*/
   font-size: var(--sub, 20px);
 }
 
@@ -134,11 +149,14 @@
   top: 100%;
   visibility: hidden;
 }
-#main-nav li:hover > ul {/* 滑鼠滑入展開次選單*/
+
+#main-nav li:hover>ul {
+  /* 滑鼠滑入展開次選單*/
   visibility: visible;
 }
-#nav-sns{
-	display: none;
+
+#nav-sns {
+  display: none;
 }
 
 /* 下拉式選單設定 */
@@ -158,23 +176,28 @@
   clear: both;
   margin-top: 30px;
 }
+
 #copyright {
   float: left;
   line-height: 95px;
 }
+
 #copyright img {
   height: 50px;
   width: auto;
   vertical-align: middle;
 }
+
 #copyright small {
   margin-left: 15px;
   font-size: var(--mini);
 }
+
 #sns {
   float: right;
   padding-top: 5px;
 }
+
 #sns a {
   display: block;
   width: 40px;
@@ -184,6 +207,7 @@
   font-size: calc(var(--sub) * 2);
   float: left;
 }
+
 #sns a img {
   width: 100%;
   height: auto;
@@ -198,7 +222,7 @@
   align-items: center;
   margin: 30px 0 50px 0;
   /* vertical-align: bottom; */
-  background-image: linear-gradient(var(--mimi),var(--pink));
+  background-image: linear-gradient(var(--mimi), var(--pink));
 }
 
 #banner img {
@@ -249,6 +273,7 @@
 .slogan h2 {
   color: var(--pink);
 }
+
 .slogan p {
   margin-top: 20px;
 }
@@ -268,6 +293,7 @@
 }
 
 #movie {
+  margin: 0 auto;
   height: 465px;
   overflow: hidden;
 }
@@ -305,7 +331,8 @@
   color: var(--white);
   background-color: var(--pink);
   text-align: center;
-  cursor: pointer; /*鼠標停留時顯示為手指*/
+  cursor: pointer;
+  /*鼠標停留時顯示為手指*/
   margin-top: 15px;
 }
 
@@ -339,6 +366,7 @@
   width: 220px;
   height: auto;
 }
+
 #mainpic table .large-logo img {
   width: 470px;
   height: auto;
@@ -360,15 +388,19 @@
 #mainpic .item1 {
   grid-area: 1/1/2/2;
 }
+
 #mainpic .item2 {
   grid-area: 2/1/3/2;
 }
+
 #mainpic .item3 {
   grid-area: 1/2/3/3;
 }
+
 #mainpic .item4 {
   grid-area: 1/3/2/4;
 }
+
 #mainpic .item5 {
   grid-area: 2/3/3/4;
 }
@@ -603,7 +635,7 @@
 }
 
 .row,
-.row > .column {
+.row>.column {
   padding: 5px;
 }
 
@@ -636,37 +668,46 @@
   width: 75%;
   float: left;
 }
+
 .rightcolumn {
   width: 25%;
   float: right;
 }
+
 .card {
   background-color: var(--white);
   padding: 20px;
   margin: 20px;
 }
+
 .card p {
   line-height: calc(var(--size_basic) * 15);
 }
+
 .leftcolumn .card p {
   text-align: justify;
 }
+
 .cardimg {
   width: 100%;
   overflow: hidden;
   margin: 10px auto;
 }
+
 .card img {
   width: 100%;
   height: auto;
 }
+
 .card p img {
   width: 50%;
   height: auto;
 }
+
 .card .tooltip .tooltiptext {
   bottom: 30%;
 }
+
 .card .tooltip:hover .tooltiptext {
   opacity: 0.7;
 }
@@ -678,9 +719,11 @@
   overflow: hidden;
   margin: 0 auto;
 }
+
 .container {
   position: relative;
 }
+
 .content_box {
   width: 350px;
   height: auto;
@@ -706,6 +749,7 @@
 .container:hover .overlay {
   height: 50%;
 }
+
 .text {
   color: var(--white);
   font-size: var(--h4);
@@ -721,6 +765,7 @@
   height: 500px;
   position: relative;
 }
+
 .pic_circle {
   border-radius: 100%;
   border: 5px solid var(--white);
@@ -729,6 +774,7 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .pic_circle:first-child {
   background-image: url("../images/store1.jpg");
   width: 376px;
@@ -736,6 +782,7 @@
   float: left;
   transform: translate(0%, 17%);
 }
+
 .pic_circle:nth-child(2) {
   background-image: url("../images/store2.jpg");
   width: 480px;
@@ -745,6 +792,7 @@
   left: 29%;
   z-index: 100;
 }
+
 .pic_circle:last-child {
   background-image: url("../images/store3.jpg");
   width: 376px;
@@ -752,19 +800,20 @@
   float: right;
   transform: translate(0%, 17%);
 }
+
 .back_line {
-  background-image: repeating-linear-gradient(
-    var(--piggy) 23%,
-    var(--pink) 24%,
-    var(--piggy) 25%,
-    var(--piggy)
-  );
+  background-image: repeating-linear-gradient(var(--piggy) 23%,
+      var(--pink) 24%,
+      var(--piggy) 25%,
+      var(--piggy));
 }
+
 .step {
   width: 33%;
   float: left;
   text-align: center;
 }
+
 .step span {
   display: inline-block;
   width: 45px;
@@ -779,6 +828,7 @@
   border-radius: 100%;
   border: 3px solid var(--pink);
 }
+
 .step h4 {
   font-size: var(--h2);
   color: var(--pink);
@@ -786,6 +836,7 @@
   text-transform: uppercase;
   margin-bottom: 20px;
 }
+
 .step p {
   font-size: var(--des);
   color: var(--grey);
